@@ -1,0 +1,13 @@
+
+
+.background{
+    
+     /* background-image: url('../../../images/ndca.png'); */
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    height: 100vh;
+    position: relative;
+    
+}

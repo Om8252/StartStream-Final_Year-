@@ -1,0 +1,22 @@
+.app-sidebar {
+    width: 250px; /* or your desired width */
+    position: fixed; /* Keep it fixed */
+    left: -250px; /* Initially hidden */
+    transition: left 0.3s ease; /* Smooth transition */
+    z-index: 1000; /* Make sure it's on top */
+  }
+  
+  .app-sidebar.is-open {
+    left: 0; /* Show sidebar */
+  }
+  
+ 
+  .app-sidebar__overlay.is-visible {
+    display: block; /* Show overlay when sidebar is open */
+  }
+
+
+ 
+  
+
+  
